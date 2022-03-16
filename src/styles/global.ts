@@ -4,6 +4,8 @@ export const GlobalStyle = createGlobalStyle`
   :root {
     --background: linear-gradient(252deg, rgba(153,41,234,1) 51%, rgba(88,8,251,1) 75%);
     --backgroundalternative: linear-gradient(252deg, rgba(65,67,69,1) 51%, rgba(35,37,38,1) 75%);
+    --background-input: rgba(255, 255, 255, 0.2);
+    --shadow: rgba(0, 0, 0, 0.5);
 
   }
 
