@@ -52,14 +52,18 @@ export function Card(){
 
       </Content>
 
-    <Main>
 
-        <h2>CEP: {cep.cep}</h2>
-          <span>{cep.logradouro}</span>
-          <span>{cep.bairro}</span>
-          <span>{cep.localidade} - {cep.uf}</span>
+    {Object.keys(cep).length > 0 && (
+      <Main>
 
-    </Main>
+      <h2>CEP: {cep.cep}</h2>
+        <span>{cep.logradouro}</span>
+        <span>{cep.bairro}</span>
+        <span>{cep.localidade} - {cep.uf}</span>
+
+  </Main>
+    )} 
+    
     
   </Container>
     
