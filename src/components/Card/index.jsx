@@ -2,6 +2,7 @@ import { useState } from "react";
 
 import { Content, Container, Main } from "./styles";
 import { FiSearch } from 'react-icons/fi'
+import logo from '../../assets/logo.png'
 
 import api from "../../services/api";
 
@@ -35,9 +36,10 @@ export function Card(){
 
   return(
   <Container>
+    <img src={logo} alt="" />
     <h1>Buscador de CEP</h1>        
       <Content>
-
+            
             <input
             type="text"
             placeholder="Digite seu cep..."

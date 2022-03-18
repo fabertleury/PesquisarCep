@@ -13,6 +13,11 @@ export const Container = styled.div`
   
    }
 
+   img {
+     size: 100;
+     margin-bottom: 25px;
+   }
+
 
   
 `
